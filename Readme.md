@@ -1,4 +1,5 @@
-🏠 Complete Hostel Management System
+<h1>🏠 Complete Hostel Management System</h1>
+<br>
 Key Features:
 
 Facial Recognition: Uses OpenCV and face_recognition library to identify students
@@ -26,9 +27,9 @@ Modern, responsive design with success/error messaging
 Reads student data from hoset_student_data.xlsx
 Creates daily record files in Entry_Record/ folder
 Automatic file naming with date format (DD_MM_YYYY.xlsx)
-
+<h3>
 How It Works:
-
+</h3>
 Setup: Students' photos are stored and system learns their faces
 Recognition: When a student shows their face to camera, system identifies them
 Recording: Automatically logs entry/exit time with student details
@@ -69,17 +70,17 @@ Daily Records Output:
 Each day creates a new Excel file with columns:
 
 rollno, erp, name, Exit Time, Entry Time, room no, phone no
-
+<h3>
 Special Features:
-
+</h3>
 Multiple entries/exits per day: Handles students going out multiple times
 Real-time feedback: Shows success/error messages immediately
 Student info display: Shows recognized student details
 Records viewing: Web interface to view daily statistics
 Mobile responsive: Works on phones and tablets
-
+<h3>
 Security & Performance:
-
+</h3>
 Face recognition with 60% tolerance for accuracy
 Automatic error handling and recovery
 Clean, professional web interface
